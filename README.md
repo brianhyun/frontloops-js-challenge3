@@ -3,7 +3,7 @@
 
 The challenge was to recreate the webpage/interaction as presented in the mp4 file provided by FrontLoops.
 
-### FrontLoops Reference Screenshot - Desktop
+### FrontLoops Reference Screenshot
 
 ![Front Loops Challenge 3 Reference Screenshot](design/frontloops-reference-screenshot.png)
 
@@ -11,7 +11,7 @@ The challenge was to recreate the webpage/interaction as presented in the mp4 fi
 
 ![Front Loops Challenge 3 Demo](https://media.giphy.com/media/XcizxabP4lb3kd5iSc/giphy.gif)
 
-### Personal Screenshot - Desktop
+### Personal Screenshot
 
 ![Front Loops Challenge 3 Output Screenshot](final-product-screenshot.png)
 
