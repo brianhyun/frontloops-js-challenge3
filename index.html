@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Random Switches</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Manrope:300,400,700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <!--
+        Create several switcher elements.
+        Whenever you change any of them - all other switchers must randomly change their state.
+    -->
+    <div class="container">
+      <div class="left-container">
+        <h1>Random Switches</h1>
+        <p>Create several switcher elements. Whenever you change any of them, all other switchers must randomly change their state.</p>
+      </div>
+      <div class="right-container">
+        <!-- You can nest the input element within the label element and eliminate the need of for/id attributes that creates an association between the two elements. Also, you can focus/input by clicking on either the label or the input itself. This increases the clickable area, which improves user's ability to focus input. -->
+        <div class="switch-box">
+          <label id="0" class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="switch-box">
+          <label id="1" class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="switch-box">
+          <label id="2" class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="switch-box">
+          <label id="3" class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="switch-box">
+          <label id="4" class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="switch-box">
+          <label id="5" class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="scripts/index.js" charset="utf-8"></script>
+  </body>
+</html>
